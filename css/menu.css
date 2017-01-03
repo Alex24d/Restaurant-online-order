@@ -1,0 +1,247 @@
+body.menu {
+  padding: 0;
+  padding-top: 140px;
+}
+
+body.menu .container.menu-box {
+
+  padding-right: 50px;
+}
+
+.menu-box ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin: 5px;
+}
+
+.menu-box ul li {
+  padding: 0;
+  margin: 0;
+  width: 225px;
+/*  display: inline-block;*/
+  margin: 10px;
+  float: left;
+}
+
+.menu-box ul li .panel:hover {
+  cursor: pointer;
+  background: #59ABE3;
+  border: 1px solid #4183D7;
+  color: white;
+}
+
+.container > .panel {
+  margin-right: 250px;
+  margin-left: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-box li img {
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.menu-box li .panel {
+  width: 100%;
+  height: 310px;
+  margin: 0;
+}
+
+.menu-box li .panel-heading {
+  padding: 0;
+  height: 150px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.menu-box li .panel-body {
+  position: relative;
+  margin: 0;
+}
+
+h4 {
+  margin: 3px 0;
+}
+
+.page-header {
+  position: fixed;
+  top: 10px;
+  width: 250px;
+  left: 10px;
+}
+
+.categories {
+  position: fixed;
+  left: 10px;
+
+}
+
+.menu .categories li {
+  padding: 0;
+  margin: 10px 0;
+  display: block;
+  float: none;
+  width: auto;
+}
+
+.menu .menu-box li span.price {
+  float: right;
+  font-size: 24px;
+
+}
+
+.menu .menu-box li .meal-name {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu .menu-box li .desc {
+  position: absolute;
+  bottom: 0px;
+  padding-right: 5px;
+}
+
+/* ORDER BAR */
+.order-bar {
+  padding: 0;
+  padding-top: 40px;
+  height: 100%;
+  position: fixed;
+  top:0;
+  right: 0;
+  background: #D2D7D3;
+  width: 350px;
+  border-left: 1px solid #95a5a6;
+  margin-right: 0px;
+}
+
+.order-bar * {
+  margin-left: 15px;
+}
+
+
+.order-bar .order-bar-toggle {
+  padding-top: 4px;
+  text-align: center;
+  position: absolute;
+  height: 27px;
+  width: 32px;
+  background: #F9BF3B;
+  z-index: 1;
+  margin-top: 23px;
+  margin-left: -33px;
+  cursor: pointer;
+}
+
+.order-bar ul.items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.order-bar ul.items>li {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ABB7B7;
+  transition: background 0.2s;
+}
+
+.order-bar ul.items>li:first-child {
+  border-top: 1px solid #ABB7B7;
+
+}
+
+.order-bar ul.items>li p {
+  margin: 0;
+  margin-left: 0px;
+  font-size: 16px;
+}
+
+.order-bar ul.items>li:hover {
+  background-color: #ECECEC;
+  cursor: pointer;
+
+}
+
+.order-bar ul.items>li input {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.order-bar h2 {
+  border-bottom: 1px solid #ABB7B7;
+  margin-bottom: 10px;
+}
+
+.order-bar h2.total {
+  border-bottom: none;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.order-bar button a {
+  margin: 0;
+}
+
+.order-bar .price {
+  float: right;
+  font-size: 18px;
+}
+
+.order-bar .name {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.order-bar .btn {
+  float: right;
+  width: 60px;
+}
+
+.order-bar-toggle i {
+  margin: 0;
+
+}
+
+.order-bar ul.items>li .quantity {
+  float: left;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.order-bar ul.items>li>span>i {
+  margin: 0;
+}
+
+.order-bar ul.items>li ul {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-top: -35px;
+  margin-left: -20px;
+  float: right;
+}
+
+.order-bar ul.items>li li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: block;
+
+}
+
+.order-bar ul.items>li li:hover {
+  color: #595959;
+}
+
+.order-bar ul.items>li li i {
+  margin: 0;
+  padding: 0;
+}

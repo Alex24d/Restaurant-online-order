@@ -1,0 +1,35 @@
+.booking-box {
+  width: 50%;
+  margin: 80px auto;
+}
+
+.booking-box span {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  width: 35px;
+}
+
+h2 {
+  margin: 40px 0;
+}
+
+.booking-box span .glyphicon {
+  position: absolute;
+  margin-top: 9px;
+  margin-right: -16px;
+}
+
+.btn-group-book {
+  margin-top: 40px;
+}
+
+.btn-book {
+  width: 48%;
+  float: left;
+}
+
+.btn-cancel {
+  width: 48%;
+  float: right;
+}

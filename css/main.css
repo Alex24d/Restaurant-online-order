@@ -1,0 +1,29 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+      display: none;
+    }
+
+body {
+  padding: 40px 50px;
+  background: #F6F7F2;
+}
+
+
+.menu .menu, .booking .booking {
+  background: black;
+}
+
+.home #navbar>.nav>.home>a, .menu #navbar>.nav>.menu>a, .booking #navbar>.nav>.booking>a{
+  color: white;
+}
+
+
+.nav li > .phone {
+  padding-top: 12px;
+  margin-left: 20px;
+}
+
+.nav li > .phone > p{
+  color: #777;
+  font-size: 11px;
+  margin-top: -6px;
+}
